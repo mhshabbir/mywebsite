@@ -356,10 +356,11 @@ article .icon {
 }
 
 .article-container img{
-  width: 100%; /* Full width of the container */
-  height: 100%; /* Full height of the container */
-  object-fit: cover; /* Ensures the image covers the entire container without distortion */
-  object-position: center;
+    max-width: 100%; /* Make image responsive */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Optional: match card corner radius */
+    object-fit: contain; /* Prevent image distortion */
+    margin-bottom: 15px; /* Space below the image */
 }
 /* PROJECTS SECTION */
 
