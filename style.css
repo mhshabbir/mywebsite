@@ -355,12 +355,13 @@ article .icon {
   cursor: default;
 }
 
-.article-container img{
-    max-width: 100%; /* Make image responsive */
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 8px; /* Optional: match card corner radius */
-    object-fit: contain; /* Prevent image distortion */
-    margin-bottom: 15px; /* Space below the image */
+.logo-img {
+  width: 100%; /* Full width of the container */
+  height: auto; /* Maintain aspect ratio */
+  max-height: 8rem; /* Limit the height to avoid oversized images */
+  object-fit: contain; /* Prevent image distortion */
+  border-radius: 8px; /* Match card corner radius */
+  margin-bottom: 15px; /* Space below the image */
 }
 /* PROJECTS SECTION */
 
