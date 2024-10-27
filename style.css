@@ -355,7 +355,7 @@ article .icon {
   cursor: default;
 }
 
-.logo-img {
+.article-container img{
   width: 100%; /* Full width of the container */
   height: 100%; /* Full height of the container */
   object-fit: cover; /* Ensures the image covers the entire container without distortion */
